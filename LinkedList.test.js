@@ -12,3 +12,34 @@ describe("#insertAtHead", () => {
     expect(ll.length).toBe(2);
   });
 });
+
+describe("#getByIndex", () => {
+  describe("with index less than 0", () => {
+    test("it returns null", () => {
+      const ll = LinkedList.fronValues(10, 20);
+      expect(ll.getByIndex(-1)).toBeNull(); // should return null
+    });
+  });
+
+  describe("with index greater than list length", () => {
+    test("it returns null", () => {
+      const ll = LinkedList.fronValues(10, 20);
+      expect(ll.getByIndex(5)).toBeNull(); // should return null as well
+    });
+  });
+
+  describe("with index 0", () => {
+    //if we try to get the head element
+    test("it returns the head", () => {
+      const ll = LinkedList.fromValues(10, 20);
+      expect(ll.getByIndex(0).value).toBe(10);
+    });
+  });
+
+  describe("with index in the middle", () => {
+    test("it returns the element at that index", () => {
+      const ll = LinkedList.fromValues(10, 20, 30, 40);
+      expect(ll.getByIndex(3).value).toBe(40);
+    });
+  });
+});
