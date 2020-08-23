@@ -16,14 +16,14 @@ describe("#insertAtHead", () => {
 describe("#getByIndex", () => {
   describe("with index less than 0", () => {
     test("it returns null", () => {
-      const ll = LinkedList.fronValues(10, 20);
+      const ll = LinkedList.fromValues(10, 20);
       expect(ll.getByIndex(-1)).toBeNull(); // should return null
     });
   });
 
   describe("with index greater than list length", () => {
     test("it returns null", () => {
-      const ll = LinkedList.fronValues(10, 20);
+      const ll = LinkedList.fromValues(10, 20);
       expect(ll.getByIndex(5)).toBeNull(); // should return null as well
     });
   });
