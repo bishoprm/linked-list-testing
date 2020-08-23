@@ -81,3 +81,13 @@ describe("#insertAtIndex", () => {
     });
   });
 });
+
+describe("#removeHead", () => {
+  test("removes the head", () => {
+    const ll = LinkedList.fromValues(10, 20, 30);
+    ll.removeHead(); // expectations: length will be shorter and head value will change
+
+    expect(ll.head.value).toBe(20);
+    expect(ll.length).toBe(2);
+  });
+});
