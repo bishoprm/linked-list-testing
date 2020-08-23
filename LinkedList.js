@@ -28,6 +28,11 @@ class LinkedList {
     this.length++;
   }
 
+  removeHead() {
+    this.head = this.head.next;
+    this.length--;
+  }
+
   print() {
     //helper function to show what the list looks like in a bit of a nicer way
     let output = "";
