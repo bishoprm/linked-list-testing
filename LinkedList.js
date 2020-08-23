@@ -33,6 +33,14 @@ class LinkedList {
     this.length--;
   }
 
+  removeAtIndex(index) {
+    if (index === 0) return this.removeHead();
+    const prev = this.getByIndex(index - 1);
+    if (prev == null) return null;
+    prev.next = prev.next.next; //skips over one
+    this.length--;
+  }
+
   print() {
     //helper function to show what the list looks like in a bit of a nicer way
     let output = "";

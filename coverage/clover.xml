@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1598193543457" clover="3.2.0">
-  <project timestamp="1598193543457" name="All files">
-    <metrics statements="31" coveredstatements="25" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="7" elements="47" coveredelements="40" complexity="0" loc="31" ncloc="31" packages="1" files="1" classes="1"/>
+<coverage generated="1598194722902" clover="3.2.0">
+  <project timestamp="1598194722903" name="All files">
+    <metrics statements="36" coveredstatements="30" conditionals="12" coveredconditionals="12" methods="9" coveredmethods="8" elements="57" coveredelements="50" complexity="0" loc="36" ncloc="36" packages="1" files="1" classes="1"/>
     <file name="LinkedList.js" path="/Users/rosebishop/Code/linked-list/LinkedList.js">
-      <metrics statements="31" coveredstatements="25" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="7"/>
-      <line num="3" count="10" type="stmt"/>
-      <line num="4" count="10" type="stmt"/>
-      <line num="8" count="26" type="stmt"/>
-      <line num="9" count="26" type="stmt"/>
-      <line num="10" count="26" type="stmt"/>
-      <line num="15" count="8" type="cond" truecount="4" falsecount="0"/>
-      <line num="16" count="4" type="stmt"/>
-      <line num="17" count="4" type="stmt"/>
-      <line num="18" count="6" type="stmt"/>
-      <line num="20" count="4" type="stmt"/>
+      <metrics statements="36" coveredstatements="30" conditionals="12" coveredconditionals="12" methods="9" coveredmethods="8"/>
+      <line num="3" count="14" type="stmt"/>
+      <line num="4" count="14" type="stmt"/>
+      <line num="8" count="38" type="stmt"/>
+      <line num="9" count="38" type="stmt"/>
+      <line num="10" count="38" type="stmt"/>
+      <line num="15" count="12" type="cond" truecount="4" falsecount="0"/>
+      <line num="16" count="6" type="stmt"/>
+      <line num="17" count="6" type="stmt"/>
+      <line num="18" count="9" type="stmt"/>
+      <line num="20" count="6" type="stmt"/>
       <line num="23" count="4" type="cond" truecount="2" falsecount="0"/>
       <line num="24" count="3" type="stmt"/>
       <line num="25" count="3" type="cond" truecount="2" falsecount="0"/>
       <line num="27" count="1" type="stmt"/>
       <line num="28" count="1" type="stmt"/>
-      <line num="32" count="1" type="stmt"/>
-      <line num="33" count="1" type="stmt"/>
-      <line num="38" count="0" type="stmt"/>
-      <line num="39" count="0" type="stmt"/>
-      <line num="40" count="0" type="stmt"/>
-      <line num="41" count="0" type="stmt"/>
-      <line num="42" count="0" type="stmt"/>
-      <line num="44" count="0" type="stmt"/>
-      <line num="50" count="27" type="stmt"/>
-      <line num="51" count="27" type="stmt"/>
-      <line num="55" count="1" type="stmt"/>
-      <line num="56" count="9" type="stmt"/>
-      <line num="57" count="9" type="stmt"/>
-      <line num="58" count="23" type="stmt"/>
-      <line num="60" count="9" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="33" count="2" type="stmt"/>
+      <line num="37" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="38" count="3" type="stmt"/>
+      <line num="39" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="46" count="0" type="stmt"/>
+      <line num="47" count="0" type="stmt"/>
+      <line num="48" count="0" type="stmt"/>
+      <line num="49" count="0" type="stmt"/>
+      <line num="50" count="0" type="stmt"/>
+      <line num="52" count="0" type="stmt"/>
+      <line num="58" count="39" type="stmt"/>
+      <line num="59" count="39" type="stmt"/>
       <line num="63" count="1" type="stmt"/>
+      <line num="64" count="13" type="stmt"/>
+      <line num="65" count="13" type="stmt"/>
+      <line num="66" count="35" type="stmt"/>
+      <line num="68" count="13" type="stmt"/>
+      <line num="71" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

@@ -91,3 +91,41 @@ describe("#removeHead", () => {
     expect(ll.length).toBe(2);
   });
 });
+
+describe("removeAtIndex", () => {
+  describe("with index less than 0", () => {
+    test("it does not remove anything", () => {
+      const ll = LinkedList.fromValues(10, 20);
+      ll.removeAtIndex(-1);
+
+      expect(ll.length).toBe(2);
+    });
+  });
+  describe("with index greater than list length", () => {
+    test("it does not remove anything", () => {
+      const ll = LinkedList.fromValues(10, 20);
+      ll.removeAtIndex(5);
+
+      expect(ll.length).toBe(2);
+    });
+  });
+  describe("with index of 0", () => {
+    test("remove the head", () => {
+      const ll = LinkedList.fromValues(10, 20, 30);
+      ll.removeAtIndex(0);
+      expect(ll.head.value).toBe(20);
+      expect(ll.head.next.value).toBe(30);
+      expect(ll.length).toBe(2);
+    });
+  });
+  describe("with index in the middle", () => {
+    test("remove at the given index", () => {
+      const ll = LinkedList.fromValues(10, 20, 30, 40, 50);
+      ll.removeAtIndex(2);
+      const node = ll.getByIndex(2);
+      expect(node.value).toBe(40);
+      expect(node.next.value).toBe(50);
+      expect(ll.length).toBe(4);
+    });
+  });
+});
